@@ -1,5 +1,5 @@
 [package]
-name = "proc-macro-re-export-inner"
+name = "proc-macro-re-export-proc-macro"
 version = "0.1.0"
 authors = ["Wim Looman <wim@nemo157.com>"]
 
