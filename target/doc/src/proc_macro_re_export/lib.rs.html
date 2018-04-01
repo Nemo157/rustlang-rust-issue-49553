@@ -60,12 +60,16 @@
 <span id="3">3</span>
 <span id="4">4</span>
 <span id="5">5</span>
+<span id="6">6</span>
+<span id="7">7</span>
 </pre><pre class="rust ">
 <span class="attribute">#![<span class="ident">feature</span>(<span class="ident">use_extern_macros</span>)]</span>
 
-<span class="kw">extern</span> <span class="kw">crate</span> <span class="ident">proc_macro_re_export_inner</span>;
+<span class="kw">extern</span> <span class="kw">crate</span> <span class="ident">proc_macro_re_export_normal_macro</span>;
+<span class="kw">extern</span> <span class="kw">crate</span> <span class="ident">proc_macro_re_export_proc_macro</span>;
 
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">proc_macro_re_export_inner</span>::<span class="ident">the_macro</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">proc_macro_re_export_normal_macro</span>::<span class="ident">the_normal_macro</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">proc_macro_re_export_proc_macro</span>::<span class="ident">the_proc_macro</span>;
 </pre>
 </section>
     <section id='search' class="content hidden"></section>
