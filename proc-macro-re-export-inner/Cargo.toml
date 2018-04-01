@@ -1,0 +1,9 @@
+[package]
+name = "proc-macro-re-export-inner"
+version = "0.1.0"
+authors = ["Wim Looman <wim@nemo157.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
