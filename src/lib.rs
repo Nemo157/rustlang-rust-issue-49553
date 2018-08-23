@@ -1,5 +1,9 @@
 #![feature(use_extern_macros)]
 
+//! A crate re-exporting some macros
+//!
+//! Doesn't do much
+
 extern crate proc_macro_re_export_normal_macro;
 extern crate proc_macro_re_export_proc_macro;
 
