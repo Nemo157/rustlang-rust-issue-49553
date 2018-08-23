@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["the_proc_macro","A proc macro"]]});
