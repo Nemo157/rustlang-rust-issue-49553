@@ -1,5 +1,3 @@
-#![feature(use_extern_macros)]
-
 //! A crate re-exporting some macros
 //!
 //! Doesn't do much
